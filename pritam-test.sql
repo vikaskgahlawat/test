@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  COUNTRIES
+WHERE
+  CONTINENT IN {{continent.value}}
